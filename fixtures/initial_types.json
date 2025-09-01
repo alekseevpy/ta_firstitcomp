@@ -1,0 +1,18 @@
+[
+    {
+        "model": "directories.type",
+        "pk": 1,
+        "fields": {
+            "name": "Пополнение",
+            "is_active": true
+        }
+    },
+    {
+        "model": "directories.type",
+        "pk": 2,
+        "fields": {
+            "name": "Списание",
+            "is_active": true
+        }
+    }
+]

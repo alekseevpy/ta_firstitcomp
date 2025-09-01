@@ -1,0 +1,98 @@
+[
+    {
+        "model": "directories.subcategory",
+        "pk": 1,
+        "fields": {
+            "name": "Основная зарплата",
+            "category": 1
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 2,
+        "fields": {
+            "name": "Бонус/Премия",
+            "category": 1
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 3,
+        "fields": {
+            "name": "Оплата по договору",
+            "category": 2
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 4,
+        "fields": {
+            "name": "Комиссия",
+            "category": 2
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 5,
+        "fields": {
+            "name": "НДФЛ к возврату",
+            "category": 3
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 6,
+        "fields": {
+            "name": "Супермаркет",
+            "category": 4
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 7,
+        "fields": {
+            "name": "Кафе/Рестораны",
+            "category": 4
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 8,
+        "fields": {
+            "name": "Общественный транспорт",
+            "category": 5
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 9,
+        "fields": {
+            "name": "Такси/Каршеринг",
+            "category": 5
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 10,
+        "fields": {
+            "name": "Мобильная связь",
+            "category": 6
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 11,
+        "fields": {
+            "name": "Домашний интернет",
+            "category": 6
+        }
+    },
+    {
+        "model": "directories.subcategory",
+        "pk": 12,
+        "fields": {
+            "name": "Штрафы/Пошлины",
+            "category": 7
+        }
+    }
+]

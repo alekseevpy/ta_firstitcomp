@@ -1,0 +1,29 @@
+[
+    {
+        "model": "directories.status",
+        "pk": 1,
+        "fields": {
+            "name": "Бизнес",
+            "code": "business",
+            "is_active": true
+        }
+    },
+    {
+        "model": "directories.status",
+        "pk": 2,
+        "fields": {
+            "name": "Личное",
+            "code": "personal",
+            "is_active": true
+        }
+    },
+    {
+        "model": "directories.status",
+        "pk": 3,
+        "fields": {
+            "name": "Налог",
+            "code": "tax",
+            "is_active": true
+        }
+    }
+]
