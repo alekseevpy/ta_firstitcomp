@@ -1,5 +1,5 @@
 """
-Общие URL DRF API: справочники, каскадные эндпоинты, ДДС.
+URL DRF API: справочники, каскадные эндпоинты, ДДС.
 """
 
 from __future__ import annotations

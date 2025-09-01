@@ -1,0 +1,332 @@
+[
+    {
+        "model": "cashflow.cashflow",
+        "pk": 1,
+        "fields": {
+            "created_at": "2025-08-29T10:30:00+05:00",
+            "status": 1,
+            "subcategory": 1,
+            "amount": "1520.50",
+            "comment": "Оплата счета №1001"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 2,
+        "fields": {
+            "created_at": "2025-08-27T14:15:00+05:00",
+            "status": 2,
+            "subcategory": 2,
+            "amount": "3250.00",
+            "comment": "Пополнение кассы"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 3,
+        "fields": {
+            "created_at": "2025-08-26T08:40:00+05:00",
+            "status": 1,
+            "subcategory": 3,
+            "amount": "780.00",
+            "comment": "Списание комиссии банка"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 4,
+        "fields": {
+            "created_at": "2025-08-24T17:05:00+05:00",
+            "status": 1,
+            "subcategory": 1,
+            "amount": "1120.30",
+            "comment": "Оплата услуги связи"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 5,
+        "fields": {
+            "created_at": "2025-08-22T12:10:00+05:00",
+            "status": 2,
+            "subcategory": 2,
+            "amount": "2500.00",
+            "comment": "Пополнение расчетного счета"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 6,
+        "fields": {
+            "created_at": "2025-08-21T09:20:00+05:00",
+            "status": 1,
+            "subcategory": 3,
+            "amount": "650.00",
+            "comment": "Списание за обслуживание"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 7,
+        "fields": {
+            "created_at": "2025-08-20T15:45:00+05:00",
+            "status": 1,
+            "subcategory": 1,
+            "amount": "4300.00",
+            "comment": "Оплата аренды"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 8,
+        "fields": {
+            "created_at": "2025-08-19T11:30:00+05:00",
+            "status": 2,
+            "subcategory": 2,
+            "amount": "1500.00",
+            "comment": "Пополнение оборотных средств"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 9,
+        "fields": {
+            "created_at": "2025-08-18T16:00:00+05:00",
+            "status": 1,
+            "subcategory": 3,
+            "amount": "980.00",
+            "comment": "Списание за интернет"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 10,
+        "fields": {
+            "created_at": "2025-08-17T10:15:00+05:00",
+            "status": 2,
+            "subcategory": 1,
+            "amount": "7000.00",
+            "comment": "Пополнение резерва"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 11,
+        "fields": {
+            "created_at": "2025-08-15T13:30:00+05:00",
+            "status": 1,
+            "subcategory": 2,
+            "amount": "3400.00",
+            "comment": "Оплата налогов"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 12,
+        "fields": {
+            "created_at": "2025-08-14T09:10:00+05:00",
+            "status": 1,
+            "subcategory": 3,
+            "amount": "800.00",
+            "comment": "Списание комиссии эквайринга"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 13,
+        "fields": {
+            "created_at": "2025-08-13T18:45:00+05:00",
+            "status": 2,
+            "subcategory": 1,
+            "amount": "1200.00",
+            "comment": "Пополнение депозита"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 14,
+        "fields": {
+            "created_at": "2025-08-12T11:20:00+05:00",
+            "status": 1,
+            "subcategory": 2,
+            "amount": "2300.00",
+            "comment": "Оплата поставщику"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 15,
+        "fields": {
+            "created_at": "2025-08-10T14:05:00+05:00",
+            "status": 2,
+            "subcategory": 3,
+            "amount": "400.00",
+            "comment": "Списание штрафа"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 16,
+        "fields": {
+            "created_at": "2025-08-09T08:50:00+05:00",
+            "status": 1,
+            "subcategory": 1,
+            "amount": "5000.00",
+            "comment": "Оплата оборудования"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 17,
+        "fields": {
+            "created_at": "2025-08-08T17:35:00+05:00",
+            "status": 1,
+            "subcategory": 2,
+            "amount": "950.00",
+            "comment": "Оплата курьерских услуг"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 18,
+        "fields": {
+            "created_at": "2025-08-07T12:25:00+05:00",
+            "status": 2,
+            "subcategory": 3,
+            "amount": "2200.00",
+            "comment": "Пополнение оборотного фонда"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 19,
+        "fields": {
+            "created_at": "2025-08-06T10:00:00+05:00",
+            "status": 1,
+            "subcategory": 1,
+            "amount": "3100.00",
+            "comment": "Оплата ремонта"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 20,
+        "fields": {
+            "created_at": "2025-08-05T09:15:00+05:00",
+            "status": 2,
+            "subcategory": 2,
+            "amount": "1800.00",
+            "comment": "Пополнение расчётного счёта"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 21,
+        "fields": {
+            "created_at": "2025-08-04T11:00:00Z",
+            "status": 1,
+            "subcategory": 6,
+            "amount": "1540.00",
+            "comment": "Супермаркет: закупка офисных фруктов"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 22,
+        "fields": {
+            "created_at": "2025-08-03T14:20:00Z",
+            "status": 2,
+            "subcategory": 7,
+            "amount": "2350.00",
+            "comment": "Кафе для встречи с клиентом"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 23,
+        "fields": {
+            "created_at": "2025-08-02T09:40:00Z",
+            "status": 1,
+            "subcategory": 8,
+            "amount": "620.00",
+            "comment": "Общественный транспорт: проездные"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 24,
+        "fields": {
+            "created_at": "2025-08-01T16:15:00Z",
+            "status": 1,
+            "subcategory": 9,
+            "amount": "1180.00",
+            "comment": "Такси до клиента"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 25,
+        "fields": {
+            "created_at": "2025-07-31T10:50:00Z",
+            "status": 2,
+            "subcategory": 10,
+            "amount": "950.00",
+            "comment": "Мобильная связь сотрудников"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 26,
+        "fields": {
+            "created_at": "2025-07-30T12:30:00Z",
+            "status": 3,
+            "subcategory": 11,
+            "amount": "1350.00",
+            "comment": "Домашний интернет (удалённая команда)"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 27,
+        "fields": {
+            "created_at": "2025-07-29T09:10:00Z",
+            "status": 1,
+            "subcategory": 12,
+            "amount": "3200.00",
+            "comment": "Госпошлина за регистрацию договора"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 28,
+        "fields": {
+            "created_at": "2025-07-28T18:25:00Z",
+            "status": 2,
+            "subcategory": 6,
+            "amount": "780.00",
+            "comment": "Супермаркет: расходные материалы"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 29,
+        "fields": {
+            "created_at": "2025-07-27T08:45:00Z",
+            "status": 1,
+            "subcategory": 10,
+            "amount": "540.00",
+            "comment": "Пополнение корпоративных SIM"
+        }
+    },
+    {
+        "model": "cashflow.cashflow",
+        "pk": 30,
+        "fields": {
+            "created_at": "2025-07-26T13:55:00Z",
+            "status": 3,
+            "subcategory": 8,
+            "amount": "410.00",
+            "comment": "Общественный транспорт: командировка"
+        }
+    }
+]

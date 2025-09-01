@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="h4 mb-3">{{ object|default_if_none:"Новая запись" }}</h1>
+
+{% if form.errors %}
+<div class="alert alert-danger">
+    <ul class="mb-0">
+        {% if form.non_field_errors %}
+        {% for err in form.non_field_errors %}
+        <li><strong>Форма:</strong> {{ err }}</li>
+        {% endfor %}
+        {% endif %}
+
+        {% for bound in form %}
+        {% for err in bound.errors %}
+        <li><strong>{{ bound.label }}:</strong> {{ err }}</li>
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<form method="post" class="row g-3">
+    {% csrf_token %}
+    <div class="col-md-3">
+        <label class="form-label">Дата/время</label>
+        {{ form.created_at }}
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Статус</label>
+        {{ form.status }}
+    </div>
+    <div class="col-md-2">
+        <label class="form-label">Тип</label>
+        {{ form.type }}
+    </div>
+    <div class="col-md-2">
+        <label class="form-label">Категория</label>
+        {{ form.category }}
+    </div>
+    <div class="col-md-2">
+        <label class="form-label">Подкатегория</label>
+        {{ form.subcategory }}
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Сумма</label>
+        {{ form.amount }}
+    </div>
+    <div class="col-12">
+        <label class="form-label">Комментарий</label>
+        {{ form.comment }}
+    </div>
+    <div class="col-12 d-flex gap-2">
+        <button class="btn btn-primary">Сохранить</button>
+        <a href="{% url 'cashflow-list' %}" class="btn btn-outline-secondary">Отмена</a>
+    </div>
+</form>
+{% endblock %}

@@ -1,0 +1,5 @@
+{# Шаблон для HTMX: рендерит набор <option> по переданным objects #}
+<option value="">—</option>
+{% for obj in objects %}
+<option value="{{ obj.id }}">{{ obj.name }}</option>
+{% endfor %}
