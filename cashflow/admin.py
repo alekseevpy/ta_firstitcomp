@@ -34,11 +34,11 @@ class CashflowAdmin(admin.ModelAdmin):
     ordering = ("-created_at", "-id")
 
     def type_name(self, obj: Cashflow) -> str:
-        """Возвращает название типа для строки списка.
+        """
+        Возвращает название типа для строки списка.
 
         Args:
             obj (Cashflow): текущая запись.
-
         Returns:
             str: название типа.
         """
@@ -48,11 +48,11 @@ class CashflowAdmin(admin.ModelAdmin):
     type_name.admin_order_field = "subcategory__category__type__name"
 
     def category_name(self, obj: Cashflow) -> str:
-        """Возвращает название категории для строки списка.
+        """
+        Возвращает название категории для строки списка.
 
         Args:
             obj (Cashflow): текущая запись.
-
         Returns:
             str: название категории.
         """
@@ -62,11 +62,11 @@ class CashflowAdmin(admin.ModelAdmin):
     category_name.admin_order_field = "subcategory__category__name"
 
     def subcategory_name(self, obj: Cashflow) -> str:
-        """Возвращает название подкатегории для строки списка.
+        """
+        Возвращает название подкатегории для строки списка.
 
         Args:
             obj (Cashflow): текущая запись.
-
         Returns:
             str: название подкатегории.
         """
@@ -76,11 +76,11 @@ class CashflowAdmin(admin.ModelAdmin):
     subcategory_name.admin_order_field = "subcategory__name"
 
     def short_comment(self, obj: Cashflow) -> str:
-        """Короткий комментарий для списка.
+        """
+        Короткий комментарий для списка.
 
         Args:
             obj (Cashflow): текущая запись.
-
         Returns:
             str: обрезанный комментарий.
         """

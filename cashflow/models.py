@@ -57,11 +57,11 @@ class Cashflow(models.Model):
         ]
 
     def __str__(self) -> str:
-        """Возвращает человекочитаемое представление записи.
+        """
+        Возвращает человекочитаемое представление записи.
 
         Args:
             None
-
         Returns:
             str: строка с датой, суммой и статусом.
         """
@@ -72,11 +72,11 @@ class Cashflow(models.Model):
 
     @property
     def category(self) -> Category:
-        """Возвращает категорию через связь подкатегории.
+        """
+        Возвращает категорию через связь подкатегории.
 
         Args:
             None
-
         Returns:
             Category: категория, к которой принадлежит подкатегория.
         """
@@ -84,55 +84,55 @@ class Cashflow(models.Model):
 
     @property
     def type(self) -> Type:
-        """Возвращает тип через цепочку подкатегория → категория → тип.
+        """
+        Возвращает тип через цепочку подкатегория → категория → тип.
 
         Args:
             None
-
         Returns:
             Type: тип операции (например, Пополнение/Списание).
         """
         return self.subcategory.category.type
 
     def clean(self) -> None:
-        """Проводит базовую проверку целостности данных.
+        """
+        Проводит базовую проверку целостности данных.
 
         Args:
             None
-
         Returns:
             None: выбросит ValidationError при несоответствиях.
         """
         return None
 
     def is_income(self) -> bool:
-        """Проверяет, является ли операция «пополнением».
+        """
+        Проверяет, является ли операция «пополнением».
 
         Args:
             None
-
         Returns:
             bool: True, если тип операции — Пополнение.
         """
         return self.type.name.lower() == "пополнение"
 
     def is_outcome(self) -> bool:
-        """Проверяет, является ли операция «списанием».
+        """
+        Проверяет, является ли операция «списанием».
 
         Args:
             None
-
         Returns:
             bool: True, если тип операции — Списание.
         """
         return self.type.name.lower() == "списание"
 
     def abs_amount(self) -> Decimal:
-        """Возвращает модуль суммы.
+        """
+        Возвращает модуль суммы.
 
         Args:
             None
-
         Returns:
             Decimal: абсолютное значение суммы.
         """
